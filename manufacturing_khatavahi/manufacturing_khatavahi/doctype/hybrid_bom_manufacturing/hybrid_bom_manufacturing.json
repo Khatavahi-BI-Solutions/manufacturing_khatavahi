@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-09-14 10:55:49.211641",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "item",
+  "column_break_rc5lj",
+  "fetch_sub_assembly",
+  "section_break_pm606",
+  "amended_from",
+  "hybrid_bom_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Hybrid BOM Manufacturing",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "hybrid_bom_table",
+   "fieldtype": "Table",
+   "label": "Hybrid BOM Table",
+   "options": "Hybrid BOM Table"
+  },
+  {
+   "fieldname": "column_break_rc5lj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fetch_sub_assembly",
+   "fieldtype": "Button",
+   "label": "Fetch Sub Assembly"
+  },
+  {
+   "fieldname": "section_break_pm606",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "HBM-.#######"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-14 11:54:23.428119",
+ "modified_by": "Administrator",
+ "module": "Manufacturing Khatavahi",
+ "name": "Hybrid BOM Manufacturing",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
