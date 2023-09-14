@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include manufacturing_khatavahi *.css
+recursive-include manufacturing_khatavahi *.csv
+recursive-include manufacturing_khatavahi *.html
+recursive-include manufacturing_khatavahi *.ico
+recursive-include manufacturing_khatavahi *.js
+recursive-include manufacturing_khatavahi *.json
+recursive-include manufacturing_khatavahi *.md
+recursive-include manufacturing_khatavahi *.png
+recursive-include manufacturing_khatavahi *.py
+recursive-include manufacturing_khatavahi *.svg
+recursive-include manufacturing_khatavahi *.txt
+recursive-exclude manufacturing_khatavahi *.pyc
